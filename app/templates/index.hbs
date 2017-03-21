@@ -1,1 +1,5 @@
-{{outlet}}
+<h1>Political Bustle</h1>
+
+{{#each model as |event|}}
+  {{story-tile event=event}}
+{{/each}}
