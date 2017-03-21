@@ -2,6 +2,8 @@
   "name": "political-bustle",
   "dependencies": {
     "ember": "~2.10.0",
-    "ember-cli-shims": "0.1.3"
+    "ember-cli-shims": "0.1.3",
+    "jquery": "3.2.1",
+    "gmaps-for-apps": "^0.5.15"
   }
 }

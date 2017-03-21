@@ -1,12 +1,12 @@
-<div class="well">
+<div class="well {{format-color event.GoldsteinScore}}">
 
   <h3 class="date">Date: {{event.Year}}/{{event.Month}}/{{event.Day}}</h3> <br><br><br>
 
   <div class="row">
-    <div class="col-md-9">
-
+    <div class="col-md-8">
+      {{g-maps name="my map" lat=event.Lat lng=event.Lon zoom=4}}
     </div>
-    <div class="col-md-offset-9 col-md-3">
+    <div class="col-md-4">
       <div class="panel eventDescription">
         <h3>Issues:</h3>
         <ul class="hideBullets">
@@ -18,14 +18,12 @@
         <h3>Countries Involved:</h3>
         <h3>{{event.SourceActorEntity}}</h3>
         <h3>{{event.TargetActorEntity}}</h3>
+        <h3>Cameo Code: {{get-cameo event.EventRootCode}}</h3>
         <h3>Read more <a href={{event.URLs}}>here</a></h3>
+
       </div>
 
     </div>
   </div>
 
-  <h3>EventRootCode {{event.EventRootCode}}</h3>
-  <h3>GoldsteinScore {{event.GoldsteinScore}}</h3>
-  <h3>Lat {{event.Lat}}</h3>
-  <h3>Lon {{event.Lon}}</h3>
 </div>

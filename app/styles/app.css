@@ -27,3 +27,7 @@
 .green {
   background-color: #d6f5d6;
 }
+
+.ember-cli-g-map {
+    height: 300px;
+}
