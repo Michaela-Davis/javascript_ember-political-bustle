@@ -1,0 +1,29 @@
+.date {
+  float: right;
+  border-left: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+.hideBullets {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.eventDescription {
+  padding-left: 15px;
+}
+
+.red {
+  background-color: #ffcccc;
+}
+
+.yellow {
+  background-color: #ffffcc;
+}
+
+.green {
+  background-color: #d6f5d6;
+}
